@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
 require "espinosa2020"
+v = Espinosa2020::Vote.new
+v.for_me

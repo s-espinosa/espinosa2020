@@ -2,5 +2,10 @@ require "espinosa2020/version"
 
 module Espinosa2020
   class Error < StandardError; end
-  # Your code goes here...
+
+  class Vote
+    def for_me
+      puts "Vote for me!"
+    end
+  end
 end
